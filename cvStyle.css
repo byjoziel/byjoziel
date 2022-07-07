@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+
+
+body {
+background: #84ACCE;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container {
+position: relative;
+width: 1000px;
+max-width: 1000px;
+min-height: 1000px;
+margin: 10px;
+background-color: #ffffff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_Side {
+    position: relative;
+    background: #3D348B;
+    padding: 40px;
+
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText h2{
+    color: #ffffff;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+    font-weight: 200;
+    line-height: 1.4em;
+    border-bottom: 1px solid;
+    
+
+}
+.profileText p{
+    font-size: 1 em;
+      font-weight:  300;
+      color: antiquewhite;
+      padding-top: 20px;
+}
+
+.contacto {
+    padding-top: 40px;
+
+}
+.titulo{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.contacto ul{
+    position: relative;
+}
+.contacto ul li{
+    position: relative;
+    list-style:none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contacto ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 19px;
+    color: aquamarine;
+}
+.contacto ul li span{
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.contacto ul li a{
+    color: aliceblue;
+    font-weight: 300;
+
+}
+.contacto.educacion li{
+     margin-bottom: 15px;
+
+}
+.contacto.educacion h3:nth-child(2){
+    color: aliceblue;
+    font-weight: 500;
+    
+
+}
+.contacto.educacion h3:nth-child(3){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.contacto.educacion h3:nth-child(4){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.contacto.educacion h3:nth-child(1){
+    color: aliceblue;
+    font-weight: 500;
+    line-height: 25px;
+    
+
+}
+
+
+.container .right_Side {
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+    
+}
+.about {
+    margin-bottom: 50px;
+    
+}
+.about:last-child {
+    margin-bottom: 0;
+
+}
+.titulo2 {
+    color:rgb(17, 15, 35);
+    font-size: 2.1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+    
+}
+.about.titulo3{
+    text-align: justify;
+}
+.stu{
+    color:rgb(42, 11, 180);
+    border-bottom: 1px solid;
+    
+}
+
+.obj{
+    color: #060414;
+    margin-top: 10px;
+    
+    
+
+}
+.about.apt .lineas{
+position: relative;
+width: 60%;
+height: 12px;
+background: #343232;
+display: block;
+margin-top: 5px;
+
+
+}
+.about.apt .lineas div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #2569a5;
+    
+}
+address{
+    display: block 10;
+}
+.about ul li{
+    list-style:none;
+    line-height: 1.4em;
+}
+.about ul li span{
+    line-height: 2em;
+}
+.about.apt  ul li{
+    list-style:none;
+}
+.botonDescarga{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    padding-left: 20px;
+    background: #ffffff;
+    text-align: center;
+    border: 2px solid;
+
+}
+.descargar-ahora{
+    display:inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: #e1e0e8;
+    color: floralwhite;
+    border-radius: 5px;
+    
+}
+.descargar-ahora:hover{
+    opacity: 0.7;
+
+}
+.btn-descarga{
+    display: inline-block;
+    padding: 15px 25px;
+    background: #f1f3f4;
+    color: rgb(14, 9, 1);
+    border: none;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: 0px;
+    cursor: pointer;
+
+}
+.btn-descarga:hover{
+    opacity: 0.7;
+}
+.botonDescarga i{
+    margin-left: 5px;
+}
+div.botonDescarga{
+   border: #c33030;
+}
+button i{
+    display: inline-block;
+    width: 30px;
+    font-size: 19px;
+    color: rgb(206, 79, 79);
+
+}
+
